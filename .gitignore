@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Google Cloud
+.gcloudignore
+*.json
+!package.json
+
+# ChromaDB
+chroma_db/
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Old/backup files
+*_old.py
+*_backup.py
+
+# Test files (optional - uncomment if you don't want to commit tests)
+# test_*.py
+
+# Cache
+hf_cache/
+.cache/
